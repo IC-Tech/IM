@@ -1,0 +1,18 @@
+@import 'common';
+@import url('public/fonts.css');
+body, a, span, p, textarea, input[type="text"] {
+  font-family: Roboto,Helvetica,'Segoe UI Emoji',-apple-system,BlinkMacSystemFont,Arial,'IC Noto Sans Sinhala','Segoe UI',Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue', sans-serif;
+  color: col(text-color);
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background-color: #fff;
+}
+* {
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
